@@ -1,0 +1,23 @@
+{
+  "fileVersion": 2,
+  "exports": [
+    {
+      "scale": 1,
+      "maxAtlasSize": 2048,
+      "name": "flump",
+      "prettyPrint": true,
+      "textureBorder": 1,
+      "quality": "best",
+      "scaleFactors": [
+        1
+      ],
+      "format": "JSON",
+      "combine": false,
+      "optimize": "Speed",
+      "scaleFactorsString": "1",
+      "description": "'flump' (JSON, 100%, @1x)"
+    }
+  ],
+  "exportDir": "../assets",
+  "importDir": ""
+}

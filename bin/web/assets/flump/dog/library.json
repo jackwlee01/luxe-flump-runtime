@@ -1,0 +1,3540 @@
+{
+ "textureGroups": [
+  {
+   "atlases": [
+    {
+     "textures": [
+      {
+       "rect": [
+        1,
+        1,
+        480,
+        280
+       ],
+       "symbol": "Bg0",
+       "origin": [
+        0,
+        0
+       ]
+      },
+      {
+       "rect": [
+        483,
+        1,
+        480,
+        280
+       ],
+       "symbol": "Bg1",
+       "origin": [
+        0,
+        0
+       ]
+      },
+      {
+       "rect": [
+        1,
+        283,
+        480,
+        156
+       ],
+       "symbol": "Bg2",
+       "origin": [
+        0,
+        0
+       ]
+      },
+      {
+       "rect": [
+        483,
+        283,
+        318,
+        200
+       ],
+       "symbol": "Van",
+       "origin": [
+        159,
+        100
+       ]
+      },
+      {
+       "rect": [
+        803,
+        283,
+        141,
+        89
+       ],
+       "symbol": "DogRun_flipbook_12",
+       "origin": [
+        76,
+        92.85
+       ]
+      },
+      {
+       "rect": [
+        803,
+        374,
+        151,
+        83
+       ],
+       "symbol": "Shooter",
+       "origin": [
+        110.95,
+        44.1
+       ]
+      },
+      {
+       "rect": [
+        803,
+        459,
+        120,
+        86
+       ],
+       "symbol": "DogRun_flipbook_0",
+       "origin": [
+        58.8,
+        85.65
+       ]
+      },
+      {
+       "rect": [
+        1,
+        441,
+        121,
+        85
+       ],
+       "symbol": "DogRun_flipbook_8",
+       "origin": [
+        61.5,
+        93.05
+       ]
+      },
+      {
+       "rect": [
+        124,
+        441,
+        101,
+        95
+       ],
+       "symbol": "DogRun_flipbook_6",
+       "origin": [
+        52.8,
+        94.35
+       ]
+      },
+      {
+       "rect": [
+        227,
+        441,
+        133,
+        70
+       ],
+       "symbol": "DogRun_flipbook_10",
+       "origin": [
+        71,
+        88.9
+       ]
+      },
+      {
+       "rect": [
+        1,
+        528,
+        99,
+        79
+       ],
+       "symbol": "DogRun_flipbook_2",
+       "origin": [
+        38.8,
+        78.5
+       ]
+      },
+      {
+       "rect": [
+        925,
+        459,
+        80,
+        78
+       ],
+       "symbol": "DogRun_flipbook_4",
+       "origin": [
+        33.65,
+        78.35
+       ]
+      },
+      {
+       "rect": [
+        946,
+        283,
+        50,
+        50
+       ],
+       "symbol": "Wheel",
+       "origin": [
+        25,
+        25
+       ]
+      },
+      {
+       "rect": [
+        946,
+        335,
+        24,
+        18
+       ],
+       "symbol": "Hand",
+       "origin": [
+        12,
+        9
+       ]
+      }
+     ],
+     "file": "atlas0.png"
+    }
+   ],
+   "scaleFactor": 1
+  }
+ ],
+ "isNamespaced": false,
+ "frameRate": 30,
+ "movies": [
+  {
+   "layers": [
+    {
+     "keyframes": [
+      {
+       "index": 0,
+       "ref": "DogRun_flipbook_0",
+       "pivot": [
+        58.8,
+        85.65
+       ],
+       "tweened": false,
+       "duration": 2
+      },
+      {
+       "index": 2,
+       "ref": "DogRun_flipbook_2",
+       "pivot": [
+        38.8,
+        78.5
+       ],
+       "tweened": false,
+       "duration": 2
+      },
+      {
+       "index": 4,
+       "ref": "DogRun_flipbook_4",
+       "pivot": [
+        33.65,
+        78.35
+       ],
+       "tweened": false,
+       "duration": 2
+      },
+      {
+       "index": 6,
+       "ref": "DogRun_flipbook_6",
+       "pivot": [
+        52.8,
+        94.35
+       ],
+       "tweened": false,
+       "duration": 2
+      },
+      {
+       "index": 8,
+       "ref": "DogRun_flipbook_8",
+       "pivot": [
+        61.5,
+        93.05
+       ],
+       "tweened": false,
+       "duration": 2
+      },
+      {
+       "index": 10,
+       "ref": "DogRun_flipbook_10",
+       "pivot": [
+        71,
+        88.9
+       ],
+       "tweened": false,
+       "duration": 2
+      },
+      {
+       "index": 12,
+       "ref": "DogRun_flipbook_12",
+       "pivot": [
+        76,
+        92.85
+       ],
+       "tweened": false,
+       "duration": 2
+      }
+     ],
+     "name": "flipbook",
+     "flipbook": true
+    }
+   ],
+   "id": "DogRun"
+  },
+  {
+   "layers": [
+    {
+     "keyframes": [
+      {
+       "index": 0,
+       "ref": "Bg0",
+       "duration": 36
+      },
+      {
+       "index": 36,
+       "ref": "Bg0",
+       "loc": [
+        -467.05,
+        0
+       ],
+       "tweened": false,
+       "duration": 1
+      }
+     ],
+     "name": "Bg0"
+    },
+    {
+     "keyframes": [
+      {
+       "index": 0,
+       "ref": "Bg1",
+       "duration": 36
+      },
+      {
+       "index": 36,
+       "ref": "Bg1",
+       "loc": [
+        -467.05,
+        0
+       ],
+       "tweened": false,
+       "duration": 1
+      }
+     ],
+     "name": "Bg1"
+    },
+    {
+     "keyframes": [
+      {
+       "index": 0,
+       "ref": "Bg2",
+       "loc": [
+        0,
+        124
+       ],
+       "duration": 36
+      },
+      {
+       "index": 36,
+       "ref": "Bg2",
+       "loc": [
+        -467.05,
+        124
+       ],
+       "tweened": false,
+       "duration": 1
+      }
+     ],
+     "name": "Bg2"
+    },
+    {
+     "keyframes": [
+      {
+       "index": 0,
+       "ref": "Bg0",
+       "loc": [
+        479,
+        0
+       ],
+       "duration": 36
+      },
+      {
+       "index": 36,
+       "ref": "Bg0",
+       "loc": [
+        11.95,
+        0
+       ],
+       "tweened": false,
+       "duration": 1
+      }
+     ],
+     "name": "Bg0"
+    },
+    {
+     "keyframes": [
+      {
+       "index": 0,
+       "ref": "Bg1",
+       "loc": [
+        479,
+        0
+       ],
+       "duration": 36
+      },
+      {
+       "index": 36,
+       "ref": "Bg1",
+       "loc": [
+        11.95,
+        0
+       ],
+       "tweened": false,
+       "duration": 1
+      }
+     ],
+     "name": "Bg1"
+    },
+    {
+     "keyframes": [
+      {
+       "index": 0,
+       "ref": "Bg2",
+       "loc": [
+        479,
+        124
+       ],
+       "duration": 36
+      },
+      {
+       "index": 36,
+       "ref": "Bg2",
+       "loc": [
+        11.95,
+        124
+       ],
+       "tweened": false,
+       "duration": 1
+      }
+     ],
+     "name": "Bg2"
+    },
+    {
+     "keyframes": [
+      {
+       "index": 0,
+       "ref": "VanMoving",
+       "loc": [
+        321,
+        232.95
+       ],
+       "tweened": false,
+       "duration": 37
+      }
+     ],
+     "name": "VanMoving"
+    },
+    {
+     "keyframes": [
+      {
+       "index": 0,
+       "duration": 37
+      }
+     ],
+     "name": "Placeholder"
+    },
+    {
+     "keyframes": [
+      {
+       "scale": [
+        1.0324,
+        1
+       ],
+       "tweened": false,
+       "duration": 37,
+       "index": 0,
+       "ref": "DogRun",
+       "loc": [
+        85.95,
+        231.8
+       ]
+      }
+     ],
+     "name": "DogRunninger"
+    },
+    {
+     "keyframes": [
+      {
+       "index": 0,
+       "label": "firstFrame",
+       "duration": 7
+      },
+      {
+       "index": 7,
+       "label": "secondFrame",
+       "duration": 8
+      },
+      {
+       "index": 15,
+       "label": "thirdFrame",
+       "duration": 7
+      },
+      {
+       "index": 22,
+       "label": "forthFrame",
+       "duration": 4
+      },
+      {
+       "index": 26,
+       "label": "fifthFrame",
+       "duration": 4
+      },
+      {
+       "index": 30,
+       "label": "sixthFrame",
+       "duration": 7
+      }
+     ],
+     "name": "Layer 4"
+    }
+   ],
+   "id": "TestScene"
+  },
+  {
+   "layers": [
+    {
+     "keyframes": [
+      {
+       "index": 0,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 2,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 4,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 6,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 8,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 10,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 12,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 14,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 16,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 18,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 20,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 22,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 24,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 26,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 28,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 30,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 32,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 34,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 36,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 38,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 40,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 42,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 44,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 46,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 48,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 50,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 52,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 54,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 56,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 58,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 60,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 62,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 64,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 66,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 68,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 70,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 72,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 74,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 76,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 78,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 80,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 82,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 84,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 86,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 88,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 90,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 92,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 94,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 96,
+       "ref": "Van",
+       "loc": [
+        0,
+        -6.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      },
+      {
+       "index": 98,
+       "ref": "Van",
+       "loc": [
+        0,
+        -5.5
+       ],
+       "pivot": [
+        159,
+        100
+       ],
+       "duration": 2
+      }
+     ],
+     "name": "Van"
+    },
+    {
+     "keyframes": [
+      {
+       "index": 0,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 2,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "index": 4,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 6,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 8,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "index": 10,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 12,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 14,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "index": 16,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 18,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "index": 20,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 22,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 24,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "index": 26,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 28,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 30,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 32,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "index": 34,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 36,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "index": 38,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 40,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 42,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "index": 44,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 46,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 48,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 50,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "index": 52,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 54,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "index": 56,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 58,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "index": 60,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 62,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "index": 64,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 66,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 68,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "index": 70,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 72,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 74,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "index": 76,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 78,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "index": 80,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 82,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 84,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "index": 86,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 88,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 90,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 92,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "index": 94,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 96,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "skew": [
+        0.0913,
+        0.0913
+       ]
+      },
+      {
+       "index": 98,
+       "ref": "Wheel",
+       "loc": [
+        -87.55,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      }
+     ],
+     "name": "Wheel"
+    },
+    {
+     "keyframes": [
+      {
+       "index": 0,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 2,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "index": 4,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 6,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 8,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "index": 10,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 12,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 14,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "index": 16,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 18,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "index": 20,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 22,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 24,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "index": 26,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 28,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 30,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 32,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "index": 34,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 36,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "index": 38,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 40,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 42,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "index": 44,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 46,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 48,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 50,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "index": 52,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 54,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "index": 56,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 58,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "index": 60,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 62,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "index": 64,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 66,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 68,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "index": 70,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 72,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 74,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "index": 76,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 78,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "index": 80,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 82,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 84,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "index": 86,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 88,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 90,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 92,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "index": 94,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      },
+      {
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2,
+       "index": 96,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "skew": [
+        0.0734,
+        0.0734
+       ]
+      },
+      {
+       "index": 98,
+       "ref": "Wheel",
+       "loc": [
+        112.45,
+        81.5
+       ],
+       "pivot": [
+        25,
+        25
+       ],
+       "duration": 2
+      }
+     ],
+     "name": "Wheel"
+    },
+    {
+     "keyframes": [
+      {
+       "pivot": [
+        110.95,
+        44.1
+       ],
+       "duration": 24,
+       "index": 0,
+       "ref": "Shooter",
+       "loc": [
+        36.75,
+        -27.15
+       ],
+       "ease": 1,
+       "skew": [
+        -0.2613,
+        -0.2613
+       ]
+      },
+      {
+       "scale": [
+        1.0092,
+        0.9999
+       ],
+       "pivot": [
+        110.95,
+        44.1
+       ],
+       "duration": 25,
+       "index": 24,
+       "ref": "Shooter",
+       "loc": [
+        36.8,
+        -27.1
+       ],
+       "ease": -1,
+       "skew": [
+        -0.0354,
+        0.1003
+       ]
+      },
+      {
+       "scale": [
+        1.0288,
+        1
+       ],
+       "pivot": [
+        110.95,
+        44.1
+       ],
+       "duration": 25,
+       "index": 49,
+       "ref": "Shooter",
+       "loc": [
+        36.75,
+        -27.15
+       ],
+       "ease": 1,
+       "skew": [
+        0.1966,
+        0.434
+       ]
+      },
+      {
+       "scale": [
+        1.0092,
+        0.9999
+       ],
+       "pivot": [
+        110.95,
+        44.1
+       ],
+       "duration": 25,
+       "index": 74,
+       "ref": "Shooter",
+       "loc": [
+        36.8,
+        -27.1
+       ],
+       "ease": -1,
+       "skew": [
+        -0.0354,
+        0.1003
+       ]
+      },
+      {
+       "pivot": [
+        110.95,
+        44.1
+       ],
+       "duration": 1,
+       "index": 99,
+       "ref": "Shooter",
+       "loc": [
+        36.75,
+        -27.15
+       ],
+       "skew": [
+        -0.2613,
+        -0.2613
+       ]
+      }
+     ],
+     "name": "Shooter"
+    },
+    {
+     "keyframes": [
+      {
+       "index": 0,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 2,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 4,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 6,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 8,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 10,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 12,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 14,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 16,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 18,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 20,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 22,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 24,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 26,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 28,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 30,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 32,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 34,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 36,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 38,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 40,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 42,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 44,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 46,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 48,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 50,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 52,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 54,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 56,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 58,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 60,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 62,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 64,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 66,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 68,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 70,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 72,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 74,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 76,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 78,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 80,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 82,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 84,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 86,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 88,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 90,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 92,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 94,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 96,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -10
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      },
+      {
+       "index": 98,
+       "ref": "Hand",
+       "loc": [
+        63.5,
+        -9
+       ],
+       "pivot": [
+        12,
+        9
+       ],
+       "duration": 2
+      }
+     ],
+     "name": "Hand"
+    }
+   ],
+   "id": "VanAnimation"
+  },
+  {
+   "layers": [
+    {
+     "keyframes": [
+      {
+       "index": 0,
+       "ref": "VanAnimation",
+       "loc": [
+        0,
+        -107
+       ],
+       "ease": 1,
+       "duration": 13
+      },
+      {
+       "index": 13,
+       "ref": "VanAnimation",
+       "loc": [
+        -14.7,
+        -107
+       ],
+       "ease": -1,
+       "duration": 12
+      },
+      {
+       "index": 25,
+       "ref": "VanAnimation",
+       "loc": [
+        -30,
+        -107
+       ],
+       "ease": 1,
+       "duration": 12
+      },
+      {
+       "index": 37,
+       "ref": "VanAnimation",
+       "loc": [
+        -14.4,
+        -107
+       ],
+       "ease": -1,
+       "duration": 13
+      },
+      {
+       "index": 50,
+       "ref": "VanAnimation",
+       "loc": [
+        0,
+        -107
+       ],
+       "tweened": false,
+       "duration": 1
+      }
+     ],
+     "name": "Layer 1"
+    }
+   ],
+   "id": "VanMoving"
+  }
+ ],
+ "md5": "c4a00a531a30a20904bd4cf6f0fb6fca"
+}

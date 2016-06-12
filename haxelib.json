@@ -1,0 +1,14 @@
+{
+  "name": "luxe-flump-runtime",
+  "url" : "https://github.com/jackwlee01/luxe-flump-runtime",
+  "license": "MIT",
+  "tags": ["flump", "animation", "flash", "timeline", "luxe", "snowkit"],
+  "description": "A Flump runtime for Luxe.",
+  "version": "0.1.3",
+  "releasenote": "Currently in development",
+  "classPath":"src",
+  "contributors": ["jackwlee"],
+  "dependencies": {
+    "pixijs": ""
+  }
+}

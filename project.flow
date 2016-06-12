@@ -1,0 +1,42 @@
+{
+
+  luxe: {
+    window: {
+      width:479,
+      height:280,
+      title:'Luxe Flump Runtime',
+      fullscreen:true,
+      resizable:true,
+      borderless:false
+    }
+  },
+
+  project : {
+    name : 'Luxe Flump Runtime',
+    version : '0.0.1',
+    author : 'Jack Lee',
+
+
+    app : {
+      name : 'luxe_flump_runtime',
+      package : '',
+      codepaths : [
+        'src'
+      ]
+    },
+
+    build : {
+      dependencies : {
+        luxe : '*',
+
+      }
+    },
+
+    files : {
+      assets : 'assets/',
+      index : { path:'custom_index.html => index.html', template:'project', not_listed:true }
+    }
+
+  }
+
+}
